@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "dnp-shuei-mincho-pr6n", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", sans-serif, serif; /* デフォルトのフォントを設定 */
+}
+
+.imageBack {
+  width: 100%; 
+  height: auto; 
+}
+
+.animation1 {
+  position: absolute; /* 絶対位置指定 */
+  top: 20%; /* 上端から中央に配置 */
+  right: 31%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  padding: 5rem 1rem;
+    -webkit-text-stroke: 2px #E93F33;
+    text-shadow: 0px 0px 5px black, 0px 0px 8px black, 0px 0px 10px #E93F33, 0px 15px 10px red, 0px 30px 15px red;
+    color: black;
+  z-index: 1;
+}
+
+.text1 {
+  opacity: 0;
+  width: 700px;
+  font-size: 48px;
+  animation: fadeIn 1s ease-in 0.7s forwards; /* 0.5秒かけてフェードイン、1秒後に開始 */
+}
+
+.animation2 {
+  position: absolute; /* 絶対位置指定 */
+  top: 48%; /* 上端から中央に配置 */
+  right: 53.5%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.text2 {
+  opacity: 0;
+  font-size: 24px;
+  padding: 8px;
+  animation: fadeDown 1s ease-in 1.3s forwards;
+  font-weight: bold;
+}
+
+.animation3 {
+  position: absolute; /* 絶対位置指定 */
+  top: 55%; /* 上端から中央に配置 */
+  right: 36.2%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.text3 {
+  opacity: 0;
+  font-size: 24px;
+  padding: 8px;
+  animation: fadeDown 1s ease-in 1.6s forwards;
+  font-weight: bold;
+}
+
+.animation4 {
+  position: absolute; /* 絶対位置指定 */
+  top: 62%; /* 上端から中央に配置 */
+  right: 52.8%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.text4 {
+  opacity: 0;
+  font-size: 24px;
+  padding: 8px;
+  animation: fadeDown 1s ease-in 1.9s forwards;
+  font-weight: bold;
+}
+
+.animation5 {
+  position: absolute; /* 絶対位置指定 */
+  top: 75%; /* 上端から中央に配置 */
+  right: 60%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.text5 {
+  opacity: 0;
+  font-size: 24px;
+  padding: 8px;
+  animation: fadeDown 1s ease-in 2.s forwards;
+  font-weight: bold;
+}
+
+.animation6 {
+  position: absolute; /* 絶対位置指定 */
+  top: 5%; /* 上端から中央に配置 */
+  right: 40%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  padding: 5rem 1rem;
+    -webkit-text-stroke: 2px #E93F33;
+    text-shadow: 0px 0px 5px black, 0px 0px 8px black, 0px 0px 10px #E93F33, 0px 15px 10px red, 0px 30px 15px red;
+    color: black;
+  z-index: 1;
+}
+
+.text6 {
+  opacity: 0;
+  width: 700px;
+  font-size: 48px;
+  animation: fadeIn 1s ease-in 0.7s forwards; /* 0.5秒かけてフェードイン、1秒後に開始 */
+}
+
+.animation7 {
+  position: absolute; /* 絶対位置指定 */
+  top: 15%; /* 上端から中央に配置 */
+  right: 10%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  padding: 5rem 1rem;
+    -webkit-text-stroke: 2px #E93F33;
+    text-shadow: 0px 0px 5px black, 0px 0px 8px black, 0px 0px 10px #E93F33, 0px 15px 10px red, 0px 30px 15px red;
+    color: black;
+  z-index: 1;
+}
+
+.text7 {
+  opacity: 0;
+  width: 700px;
+  font-size: 48px;
+  animation: fadeIn 1s ease-in 1.5s forwards; /* 0.5秒かけてフェードイン、1秒後に開始 */
+}
+
+.animation8 {
+  position: absolute; /* 絶対位置指定 */
+  top: 40%; /* 上端から中央に配置 */
+  right: 60%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.text8 {
+  opacity: 0;
+  font-size: 24px;
+  padding: 8px;
+  animation: fadeDown 1s ease-in 2s forwards;
+  font-weight: bold;
+}
+
+.animation9 {
+  position: absolute; /* 絶対位置指定 */
+  top: 50%; /* 上端から中央に配置 */
+  right: 44.4%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.text9 {
+  opacity: 0;
+  font-size: 24px;
+  padding: 8px;
+  animation: fadeDown 1s ease-in 2.5s forwards;
+  font-weight: bold;
+}
+
+.animation10 {
+  position: absolute; /* 絶対位置指定 */
+  top: 64%; /* 上端から中央に配置 */
+  right: 68%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.text10 {
+  opacity: 0;
+  font-size: 24px;
+  padding: 8px;
+  animation: fadeDown 1s ease-in 4s forwards;
+  font-weight: bold;
+}
+
+.animation11 {
+  position: absolute; /* 絶対位置指定 */
+  top: 75%; /* 上端から中央に配置 */
+  right: 60%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.text11 {
+  opacity: 0;
+  font-size: 24px;
+  padding: 8px;
+  animation: fadeIn 1.5s ease-in 4.5s forwards;
+  font-weight: bold;
+}
+
+.animation12 {
+  position: absolute; /* 絶対位置指定 */
+  top: 35%; /* 上端から中央に配置 */
+  right: 27%; /* 左端から中央に配置 */
+  ; /* 中央揃え */
+  text-align: center;
+  padding: 5rem 1rem;
+    -webkit-text-stroke: 2px #E93F33;
+    text-shadow: 0px 0px 5px black, 0px 0px 8px black, 0px 0px 10px #E93F33, 0px 15px 10px red, 0px 30px 15px red;
+    color: black;
+  z-index: 1;
+}
+
+.text12 {
+  opacity: 0;
+  font-size: 48px;
+  padding: 8px;
+  animation: fadeIn 1.5s ease-in 1s forwards;
+}
+
+.picture2 {
+  display: none;
+}
+
+.picture3 {
+  display: none; /* 最初は非表示 */
+}

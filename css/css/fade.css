@@ -1,0 +1,19 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 透明度を0に設定 */
+  }
+  to {
+    opacity: 1; /* 透明度を1に設定 */
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0; /* 透明度を0に設定 */
+    transform: translateY(-8px); /* 初期位置から8px上に移動 */
+  }
+  to {
+    opacity: 1; /* 透明度を1に設定 */
+    transform: translateY(0); /* 初期位置に移動 */
+  }
+}

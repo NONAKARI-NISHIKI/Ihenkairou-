@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css\css/introduction/introduction.css">
+  <link rel="stylesheet" href="css\css/fade.css">
+  <link rel="stylesheet" href="css\css/carosel.css">
+  <link rel="stylesheet" href="css\css/menu.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="current"><a href="index.html">Home</a></li>
+      <li><a href="concept.html">Concept</a></li>
+      <li><a href="member.html">Member</a></li>
+      <li><a href="#" onclick="reloadPage()">Introduction</a></li>
+      <!-- <li><a href=”#”>Blog</a></li> -->
+    </ul>
+    </nav>
+
+    <!-- 画像スライド -->
+  <div class="container">
+    <div class="carousel">
+      <input type="radio" id="carousel-1" name="carousel[]" checked>
+      <input type="radio" id="carousel-2" name="carousel[]">
+       <input type="radio" id="carousel-3" name="carousel[]">
+      <input type="radio" id="carousel-4" name="carousel[]">
+      <!-- <input type="radio" id="carousel-5" name="carousel[]"> -->
+      <ul class="carousel__items">
+        <li class="carousel__item"><img src="images/image3.png" alt=""></li>
+        <li class="carousel__item"><img src="images/intoimage2.png" alt=""></li>
+        <li class="carousel__item"><img src="images/intoImage.png" alt=""></li>
+        <li class="carousel__item"><img src="images/intoimage2.png" alt=""></li>
+        <!-- <li class="carousel__item"><img src="images/thumbnail.png" alt=""></li> -->
+      </ul>
+       <div class="carousel__prev">
+        <label for="carousel-1"></label>
+        <label for="carousel-2"></label>
+        <label for="carousel-3"></label>
+        <label for="carousel-4"></label>
+        <!-- <label for="carousel-5"></label> -->
+       </div>
+       <div class="carousel__next">
+         <label for="carousel-1"></label>
+         <label for="carousel-2"></label>
+         <label for="carousel-3"></label>
+         <label for="carousel-4"></label>
+         <!-- <label for="carousel-5"></label> -->
+       </div>
+       <div class="carousel__nav">
+         <label for="carousel-1"></label>
+         <label for="carousel-2"></label>
+         <label for="carousel-3"></label>
+         <label for="carousel-4"></label>
+         <!-- <label for="carousel-5"></label> -->
+       </div>
+     </div>
+   </div>
+
+  <div class="picture">
+    <p class="introduction">霧が立ち込める秋の夜、町の外れに佇む廃墟は、その不気味な佇まいで人々の間に恐怖と好奇心を巻き起こしていた。<br>
+      かつては輝かしい豪邸だったその場所は、今や時間とともに崩れ落ち、自然に飲み込まれつつある。<br>
+      去年、裕福な投資家の夫婦が突然の失踪を遂げてからというもの、誰一人としてこの屋敷に足を踏み入れる者はいなかった。<br>
+      あの日から、その家はただの廃墟となり、人々の記憶からも次第に消え去ろうとしていた。
+    </p>
+  </div>
+
+  <div class="picture2">
+    <p class="introduction2">
+      しかし、数週間前、地元の若者たちがその廃墟を探索しようと中に入ったまま行方不明になったという報せが町中を駆け巡った。<br>
+      警察の捜索も成果を上げることなく、事件は未解決のまま放置されている。
+      失踪した若者たちの家族は絶望の淵に立たされ、町全体が暗い影を落としていた。
+      私は考古学者だ。遺跡や古代の謎を解き明かすことが私の仕事だが、今回は違う。<br>
+      とある依頼で、この不可解な事件を解決するために現場を調査することにした。<br>
+      彼らの行方を追い、その先にある真実を突き止めるために、私はその廃墟へと向かう決意を固めたのだ。
+    </p>
+  </div>
+
+  <div class="picture3">
+    <p class="introduction3">
+      車を降り、重い鉄の門を押し開けると、冷たい風が吹き抜け、体を震わせる。<br>
+      目の前には朽ち果てた屋敷が広がり、薄暗い月明かりの下で不気味に佇んでいた。<br>
+      かつての栄華を物語る装飾が、今や廃墟の中に埋もれ、何もかもが静まり返っている。のだ。
+    </p>
+  </div>
+
+  <div class="picture4">
+    <p class="introduction4">
+      この場所に何が潜んでいるのか。若者たちはどこに消えたのか。そして、投資家夫婦の失踪の真相とは。<br>
+      一歩一歩、私は屋敷の中へと足を進めた。闇の中に隠された秘密を解き明かすために――。
+    </p>
+  </div>
+  
+<script src="js/reload.js"></script>
+<script src="js/introductionChanger.js"></script>
+</body>
+</html>

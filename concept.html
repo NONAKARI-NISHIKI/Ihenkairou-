@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css\css/fade.css">
+  <link rel="stylesheet" href="css\css/concept/concept.css">
+  <link rel="stylesheet" href="css\css/carosel.css">
+  <link rel="stylesheet" href="css\css/menu.css">
+</head>
+<body>
+  <!-- メニューバー -->
+  <nav>
+    <ul>
+      <li class="current"><a href="index.html">Home</a></li>
+      <li><a href="#" onclick="reloadPage()">Concept</a></li>
+      <li><a href="member.html">Member</a></li>
+      <li><a href="introduction.html">Introduction</a></li>
+      <!-- <li><a href="#">Blog</a></li> -->
+    </ul>
+  </nav>  
+
+    <!-- 画像スライド -->
+  <div class="container">
+    <div class="carousel">
+      <input type="radio" id="carousel-1" name="carousel[]" checked>
+      <input type="radio" id="carousel-2" name="carousel[]">
+       <input type="radio" id="carousel-3" name="carousel[]">
+      <!-- <input type="radio" id="carousel-4" name="carousel[]">
+      <input type="radio" id="carousel-5" name="carousel[]"> -->
+      <ul class="carousel__items">
+        <li class="carousel__item"><img src="images/thumbnail.png" alt=""></li>
+        <li class="carousel__item"><img src="images/image2.png" alt=""></li>
+        <!-- <li class="carousel__item"><img src="images/thumbnail.png" alt=""></li>
+        <li class="carousel__item"><img src="images/image2.png" alt=""></li>
+        <li class="carousel__item"><img src="images/thumbnail.png" alt=""></li> -->
+      </ul>
+       <div class="carousel__prev">
+        <label for="carousel-1"></label>
+        <label for="carousel-2"></label>
+        <label for="carousel-3"></label>
+        <!-- <label for="carousel-4"></label>
+        <label for="carousel-5"></label> -->
+       </div>
+       <div class="carousel__next">
+         <label for="carousel-1"></label>
+         <label for="carousel-2"></label>
+         <label for="carousel-3"></label>
+         <!-- <label for="carousel-4"></label>
+         <label for="carousel-5"></label> -->
+       </div>
+       <div class="carousel__nav">
+         <label for="carousel-1"></label>
+         <label for="carousel-2"></label>
+         <label for="carousel-3"></label>
+         <!-- <label for="carousel-4"></label>
+         <label for="carousel-5"></label> -->
+       </div>
+     </div>
+   </div>
+
+   <!-- 一枚目コンセプト -->
+  <div class="picture">
+    <div class="animation1">
+      <div class="text1">この洋館、何かがオかシイ…</div>
+    </div>
+    <div class="animation2">
+      <div class="text2">あの洋館、何かが変だ。</div>
+    </div>
+    <div class="animation3">
+      <div class="text3">いくら廊下を進んでも同じところに戻ってくる。</div>
+    </div>
+    <div class="animation4">
+      <div class="text4">いや、、本当に同じか…？</div>
+    </div>
+    <div class="animation5">
+      <div class="text5">--迷い人</div>
+    </div>
+  </div>
+
+  <!-- 二枚目のコンセプト -->
+  <div class="picture2">
+    <div class="animation6">
+      <div class="text6">俺が言えるのハこれダけだ...</div>
+    </div>
+    <div class="animation7">
+      <div class="text7">「異変に気をツけろ」</div>
+    </div>
+    <div class="animation8">
+      <div class="text8">俺は30回目のループである紙を見つけたんだ。</div>
+    </div>
+    <div class="animation9">
+      <div class="text9">そこには「異変が在レば進み、ナければ戻ル」とだけ書いてあった、</div>
+    </div>
+    <div class="animation10">
+      <div class="text10">…まて、こんな所に棚あったか…？</div>
+    </div>
+    <div class="animation11">
+      <div class="text11">--迷イ人</div>
+    </div>
+  </div>
+
+  <!-- 強制画面遷移 -->
+  <div class="picture3">
+    <div class="animation12">
+      <div class="text12">この洋館、何かがオかシイ…</div>
+    </div>
+  </div>
+  
+<script src="js/reload.js"></script>
+<script src="js/textChanger.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.bx-wrapper {
+  background: black;
+  border: 5px solid black;
+  box-shadow: none;
+  animation: fadeIn 1s ease-in 5s forwards;
+  opacity: 0;
+}
+
+.bx-wrapper .bx-controls-direction a.bx-prev{
+  left:-5%;
+}
+.bx-wrapper .bx-controls-direction a.bx-next{
+  right:-5%;
+}

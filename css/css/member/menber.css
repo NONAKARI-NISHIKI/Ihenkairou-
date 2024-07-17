@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  font-family: "dnp-shuei-mincho-pr6n", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", sans-serif, serif; /* デフォルトのフォントを設定 */
+}
+
+.screen {
+  font-family: "dnp-shuei-mincho-pr6n", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", sans-serif, serif;
+  color: #a9a07f;
+  font-size: 32px;
+  position: absolute;
+  left: 10%;
+  margin-top: 10px;
+}
+
+/* 新しいコンテナクラス */
+.member {
+  position: relative;
+  top: 80px; /* screenの下に配置するために適切に調整 */
+}
+
+.head {
+  font-family: "dnp-shuei-mincho-pr6n", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", sans-serif, serif;
+  border: 1px solid white;
+  width: 400px;
+  color: #a9a07f;
+  margin: 16px auto; /* 変更 */
+  padding: 16px;
+  text-align: center;
+}
+
+.name {
+  font-family: "dnp-shuei-mincho-pr6n", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", sans-serif, serif;
+  width: 300px;
+  margin: 16px auto; /* 変更 */
+  text-align: center;
+  color: white;
+  padding: 12px;
+  font-size: 28px;
+  display: block; /* 追加 */
+  text-decoration: none; /* 下線を消す */
+}
+
+.name:hover {
+  opacity: 0.7;
+}

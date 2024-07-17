@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  font-family: "dnp-shuei-mincho-pr6n", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", sans-serif, serif; /* デフォルトのフォントを設定 */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* アスペクト比を保持しつつ画像をカバー */
+  object-position: center; /* 画像を中央に配置 */
+  border-bottom: 1px solid #ccc;
+}
+
+/* 共通のスタイルをまとめたクラス */
+.introduction, .introduction2, .introduction3, .introduction4 {
+  width: 77%;
+  position: absolute; /* 絶対位置指定 */
+  top: 45%; /* 垂直方向に中央揃え */
+  left: 50%; /* 水平方向に中央揃え */
+  transform: translate(-50%, -50%); /* 完全に中央に揃えるための変換 */
+  color: white; /* テキストの色を白に設定 */
+  padding: 20px; /* パディングを追加 */
+  text-align: center; /* テキストを中央揃え */
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 1; /* 画像の上に表示するためにZインデックスを設定 */
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in 1s forwards;
+}
+
+/* brタグの共通スタイル */
+.introduction br, .introduction2 br, .introduction3 br, .introduction4 br {
+  content: "";
+  display: block;
+  margin-bottom: 2.5em; /* ここで余白の大きさを調整 */
+}
+
+.introduction, .introduction2, .introduction3, .introduction4 {
+  width: 79%;
+}

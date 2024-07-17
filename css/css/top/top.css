@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #0a0a0a;
+  font-family: "dnp-shuei-mincho-pr6n", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", sans-serif, serif; /* デフォルトのフォントを設定 */
+}
+
+header {
+  position: relative; /* 相対位置指定 */
+  opacity: 0;
+  animation: fadeIn 1s ease-in 4s forwards;
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* アスペクト比を保持しつつ画像をカバー */
+  object-position: center; /* 画像を中央に配置 */
+  border-bottom: 1px solid #ccc;
+}
+
+.animation {
+  position: absolute; /* 絶対位置指定 */
+  top: 30%; /* 上端から中央に配置 */
+  right: 0; /* 左端から中央に配置 */
+  transform: translate(-60%, -30%); /* 中央揃え */
+  text-align: center;
+  color: aliceblue;
+}
+
+.animation1 {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 5s forwards; /* 0.5秒かけてフェードイン、1秒後に開始 */
+  font-size: 26px;
+  padding: 16px 0;
+}
+
+.animation2 {
+  opacity: 0;
+  width: 430px;
+  height: auto;
+  animation: fadeDown 1s ease-in 6s forwards; /* 1秒かけてフェードイン、2秒後に開始 */
+}
+
+.animation3 {
+  opacity: 0;
+  font-size: 20px;
+  animation: fadeDown 1s ease-in 6.3s forwards;
+}
+
+.thumbnail {
+  opacity: 0;
+  width: 250px;
+  height: 150px;
+  animation: fadeDown 1s ease-in 6.8s forwards;
+  border: 1px solid #BDC3C9;
+  margin-top: 16px;
+}
+
+.thumbnail-container {
+  position: relative;
+  display: inline-block;
+}
+
+.play-text {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  color: rgb(211, 211, 211);
+  transition: color 0.3s;
+  white-space: nowrap;
+}
+
+.thumbnail-container:hover .play-text {
+  color: white; /* マウスホバー時にカラーを白に変更 */
+}
+
+
+.screen {
+  font-family: "dnp-shuei-mincho-pr6n", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", sans-serif, serif;
+  color: #a9a07f;
+  font-size: 32px;
+  position: absolute;
+  left: 10%;
+  margin-top: 48px;
+  opacity: 0;
+  animation: fadeIn 1s ease-in 5s forwards;
+}
